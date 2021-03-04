@@ -96,7 +96,7 @@ ImageSnapWebcam.prototype.list = function( callback ) {
 
     var scope = this;
 
-    var sh = scope.bin + " -l";
+    var sh = scope.bin + " -l -w 2";
 
     var cams = [];
 
